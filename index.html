@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>lift</title>
+  </head>
+  <body>
+    <nav>
+      <h1>中國企業最好的電</h1>
+      <img
+        src="https://media.istockphoto.com/id/941530450/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9-%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD.jpg?s=612x612&w=0&k=20&c=ufFqTr8DapGx8FHyznUuKo5zJRzxY1gqDSYyG56kHZY="
+        alt="dragon"
+      />
+    </nav>
+    <div class="container_main">
+      <div class="floors">
+        <div class="floor">5</div>
+        <div class="floor">4</div>
+        <div id="floor3" class="floor">3</div>
+        <div class="floor">2</div>
+        <div class="floor">1</div>
+      </div>
+      <div class="container">
+        <div class="button">
+          <button onclick="soundClick()">Музыка</button>
+          <button id="up" onclick="soundClick1()"><img src="./img/button.svg" alt="btn" /></button>
+          <button id="down" onclick="soundClick2()"><img src="./img/button2.svg" alt="btn" /></button>
+          <button id="go-btn">Floor</button>
+        </div>
+        <div class="lift"></div>
+      </div>
+    </div>
+
+    <!-- <audio src="./img/elevator.mp3" autoplay="autoplay"></audio> -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
